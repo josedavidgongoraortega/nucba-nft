@@ -77,26 +77,28 @@ export default function Home() {
       <main className="bg-zinc-800 w-screen flex justify-center items-start">
         {/* section hero */}
         <div>
-          <section className="mt-20 bg-zinc-800">
+          <section className="mt-20 bg-zinc-800 lg:flex lg:items-center lg:justify-around">
             {/* texto hero */}
-            <h1 className="text-6xl text-center bg-clip-text text-transparent bg-gradient-to-r from-zinc-400  to-white font-bold">
-              Full Stack Hashira
-            </h1>
-            <p className="text-zinc-200 text-center m-8">
-              Ser un Full Stack con la habilidad de un Hashira en Demon Slayer
-              es ser un maestro del desarrollo web. Con el tiempo, has
-              perfeccionado tus habilidades tanto en el frontend como en el
-              backend, dominando cada aspecto del proceso. Al igual que un
-              Hashira que ha derrotado a innumerables demonios y ha alcanzado un
-              nivel de destreza inigualable.
-            </p>
-            <div className="flex justify-center space-x-6">
-              <button className="text-white bg-gradient-to-r from-blue-500 to-zinc-500 rounded-xl p-1  font-bold uppercase pl-4 pr-4">
-                Full Stack Now
-              </button>
-              <button className="text-white bg-gradient-to-r from-red-500 to-zinc-500 rounded-xl p-2  font-bold uppercase pl-4 pr-4">
-                Hashira Now
-              </button>
+            <div>
+              <h1 className="text-6xl text-center bg-clip-text text-transparent bg-gradient-to-r from-zinc-400  to-white font-bold lg:text-start">
+                Full Stack Hashira
+              </h1>
+              <p className="text-zinc-200 text-center m-8 lg:w-[600px] lg:text-start lg:m-0 lg:mt-5">
+                Ser un Full Stack con la habilidad de un Hashira en Demon Slayer
+                es ser un maestro del desarrollo web. Con el tiempo, has
+                perfeccionado tus habilidades tanto en el frontend como en el
+                backend, dominando cada aspecto del proceso. Al igual que un
+                Hashira que ha derrotado a innumerables demonios y ha alcanzado
+                un nivel de destreza inigualable.
+              </p>
+              <div className="flex justify-center space-x-6 lg:justify-start lg:mt-10">
+                <button className="text-white bg-gradient-to-r from-blue-500 to-zinc-500 rounded-xl p-1  font-bold uppercase pl-4 pr-4">
+                  Full Stack Now
+                </button>
+                <button className="text-white bg-gradient-to-r from-red-500 to-zinc-500 rounded-xl p-2  font-bold uppercase pl-4 pr-4">
+                  Hashira Now
+                </button>
+              </div>
             </div>
             {/* card hero */}
             <div className="flex justify-center mt-10">
@@ -284,6 +286,9 @@ export default function Home() {
         </div>
       </main>
       <footer className="flex bg-zinc-800 justify-center items-center h-[70px]">
+        <h3 className="text-yellow-500 sm:text-blue-500 md:text-red-500 lg:text-purple-500 xl:text-orange-500">
+          guia de tamaños
+        </h3>
         <div>
           <h1 className="text-white">Creado por Jose David X Nucba</h1>
         </div>
