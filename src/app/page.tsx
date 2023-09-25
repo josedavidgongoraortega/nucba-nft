@@ -162,7 +162,7 @@ export default function Home() {
                 Conoce a los pilares
               </h2>
               <div className="flex justify-center mt-20">
-                <div>
+                <div className="lg:flex lg:space-x-20">
                   {/* card-1 */}
                   <div className="bg-gradient-to-b from-zinc-900 via-zinc-400 to-green-600 w-72 h-72 rounded-xl  flex items-center justify-center">
                     <div className="text-center text-white">
@@ -183,7 +183,7 @@ export default function Home() {
                     </div>
                   </div>
                   {/* card-2 */}
-                  <div className="bg-gradient-to-b from-red-900 via-red-800 to-yellow-600 w-72 h-72 rounded-xl  flex items-center justify-center mt-10">
+                  <div className="bg-gradient-to-b from-red-900 via-red-800 to-yellow-600 w-72 h-72 rounded-xl  flex items-center justify-center mt-10 lg:mt-0">
                     <div className="text-center text-white">
                       <div className="w-[105px] h-[105px] mx-auto rounded-full bg-white flex items-center">
                         <div className="w-24 h-24 mx-auto rounded-full overflow-hidden">
@@ -202,7 +202,7 @@ export default function Home() {
                     </div>
                   </div>
                   {/* card-3*/}
-                  <div className="bg-gradient-to-b from-zinc-900 via-blue-400 to-green-300 w-72 h-72 rounded-xl flex items-center justify-center mt-10">
+                  <div className="bg-gradient-to-b from-zinc-900 via-blue-400 to-green-300 w-72 h-72 rounded-xl flex items-center justify-center mt-10 lg:mt-0">
                     <div className="text-center text-white">
                       <div className="w-[105px] h-[105px] mx-auto rounded-full bg-white flex items-center">
                         <div className="w-24 h-24 mx-auto rounded-full overflow-hidden">
